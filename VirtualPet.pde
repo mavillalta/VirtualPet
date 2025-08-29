@@ -48,13 +48,13 @@ void draw(){
   fill(0,0,255);
   triangle(cx,cy,xnums[a-4],ynums[a-4],xnums[0],ynums[0]);
   fill(0,0,0);
-  arc(500,380,280,280,5*PI/4,7*PI/4);
+  arc(500,380,500,280,5*PI/4,7*PI/4);
   fill(0,0,255);
-  ellipse(500,380,200,200);
+  ellipse(500,500,200,200);
   fill(255,255,255);
-  ellipse(500,380,150,150);
+  ellipse(500,500,150,150);
   fill(0,0,0);
-  ellipse(500,380,100,100);
+  ellipse(500,500,100,100);
 
   int[] ran= new int[20];
   for(int i=0;i<20;i++){
