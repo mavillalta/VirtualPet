@@ -1,6 +1,5 @@
 void setup()
 {
-  int size=500;
   size(1000,1000);
 }
 
