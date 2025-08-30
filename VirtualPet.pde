@@ -6,10 +6,10 @@ void setup()
 void draw(){
   //ellipse(500,500,1000,1000);
   int a=12;
-  int b=500;
+  int b=400;
   double c=PI/6;
   int cx=500;
-  int cy=500;
+  int cy=400;
   int[] xnums = new int[a];
   int[] ynums = new int[a];
 
