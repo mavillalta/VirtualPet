@@ -12,8 +12,10 @@ void draw(){
   int cy=400;
   int[] xnums = new int[a];
   int[] ynums = new int[a];
-  line(450,750,450,950);
-  line(550,750,550,950);
+  fill(255,255,255)
+  rect(450,750,20,200);
+  fill(255,255,255)
+  rect(550,750,20,200);
   for(int i=0;i<a; i++){
     xnums[i]=int(Math.round(cx+b*Math.cos(i*(2*(3.14159265))/a+c)));
     ynums[i]=int(Math.round(cy+b*Math.sin(i*(2*(3.14159265))/a+c)));  
