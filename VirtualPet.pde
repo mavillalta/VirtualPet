@@ -12,9 +12,9 @@ void draw(){
   int cy=400;
   int[] xnums = new int[a];
   int[] ynums = new int[a];
-  fill(255,255,255)
+  fill(0,0,0);
   rect(450,750,20,200);
-  fill(255,255,255)
+  fill(0,0,0);
   rect(550,750,20,200);
   for(int i=0;i<a; i++){
     xnums[i]=int(Math.round(cx+b*Math.cos(i*(2*(3.14159265))/a+c)));
